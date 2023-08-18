@@ -21,9 +21,9 @@
               <h2 class="card-title">Triangle</h2>
               <p>Area (A) = 0.5 X b X h</p>
               <p>
-                <input type="text" class="border w-24 px-2 text-xl bg-gray-200" id="triangle-base" placeholder="base" />
+                <input type="number" class="border w-24 px-2 text-xl bg-gray-200" id="triangle-base" placeholder="base" />
                 <span class="ml-3">cm</span>
-                <input type="text" class="ml-4 border w-24 px-2 text-xl bg-gray-200" id="triangle-height" placeholder="height" />
+                <input type="number" class="ml-4 border w-24 px-2 text-xl bg-gray-200" id="triangle-height" placeholder="height" />
                 <span class="ml-3">cm</span>
               </p>
               <p class="text-2xl">
@@ -39,16 +39,16 @@
               </div>
             </div>
           </div>
-          <!-- second card -->
+          <!-- rectangle card -->
           <div class="card w-96 bg-base-100 shadow-xl">
             <figure><img src="./images/rectangle.png" alt="rectangle" /></figure>
             <div class="card-body">
               <h2 class="card-title">Rectangle</h2>
               <p>Area (A) = w x l</p>
               <p>
-                <input type="text" class="border w-24 px-2 text-xl bg-gray-200" id="rectangle-width" placeholder="base" />
+                <input type="text" class="border w-24 px-2 text-xl bg-gray-200" id="rectangle-width" placeholder="width" />
                 <span class="ml-3">cm</span>
-                <input type="text" class="ml-4 border w-24 px-2 text-xl bg-gray-200" id="rectangle-length" placeholder="height" />
+                <input type="text" class="ml-4 border w-24 px-2 text-xl bg-gray-200" id="rectangle-length" placeholder="length" />
                 <span class="ml-3">cm</span>
               </p>
               <p class="text-2xl">
@@ -112,6 +112,9 @@
         <!-- area calculator -->
         <div class="w-[400px]">
           <div class="text-4xl">Area calculator</div>
+          <div id="calculation-entry">
+            
+          </div>
         </div>
       </div>
     </main>
