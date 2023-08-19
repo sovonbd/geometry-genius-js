@@ -150,7 +150,6 @@ function addToCalculationEntry(areaType, area) {
 
     const convert = area * 0.0001;
     convertToMeter.innerHTML = `${convert} m<sup>2</sup>`;
-    console.log(convertToMeter);
   });
   // const tr = document.createElement("tr");
   // tr.classList.add("pt-10");
